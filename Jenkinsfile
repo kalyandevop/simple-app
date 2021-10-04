@@ -32,7 +32,7 @@ pipeline {
                     nexusUrl: 'http://18.220.133.30:8081/repository/mavenapp-release/', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
-                    repository: mavenapp-release, 
+                    repository: mavenreleases, 
                     version: "${mavenPom.version}"
                     }
             }
